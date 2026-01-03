@@ -21,7 +21,7 @@ public class DynamicTable {
 		WebElement scrollInto = driver.findElement(By.xpath("//h2[contains(text(),'Playground')]"));
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		js.executeScript("arguments[0].scrollIntoView(true);", scrollInto);
-// to get col index of CPU and Name
+		// to get col index of CPU and Name
 		String colName;
 		int cpuIndex=0;
 		int nameIndex=0;
